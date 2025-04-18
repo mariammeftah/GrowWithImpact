@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply for Funding | Fairvest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-white py-16 px-6 md:px-16 text-center">
+    <h1 class="text-4xl font-bold mb-4">Submit Your Ethical Business Proposal</h1>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto">We connect values-driven entrepreneurs with interest-free investment opportunities. Let’s grow together with trust, impact, and purpose.</p>
+  </section>
+
+  <!-- Steps Section -->
+  <section class="bg-gray-100 py-12 px-6 md:px-16">
+    <h2 class="text-2xl font-semibold mb-6 text-center">How It Works</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-8 text-center">
+      <div>
+        <div class="text-3xl font-bold text-teal-600 mb-2">1</div>
+        <p>Fill in Application Form</p>
+      </div>
+      <div>
+        <div class="text-3xl font-bold text-teal-600 mb-2">2</div>
+        <p>Project Review</p>
+      </div>
+      <div>
+        <div class="text-3xl font-bold text-teal-600 mb-2">3</div>
+        <p>Investor Matching</p>
+      </div>
+      <div>
+        <div class="text-3xl font-bold text-teal-600 mb-2">4</div>
+        <p>Launch Campaign</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eligibility Section -->
+  <section class="py-12 px-6 md:px-16 bg-white">
+    <h2 class="text-2xl font-semibold mb-4">Are You a Fit?</h2>
+    <ul class="list-disc list-inside space-y-2 text-gray-700">
+      <li>Your business is ethical and interest-free</li>
+      <li>Your project contributes to social or economic impact</li>
+      <li>You follow Mudarabah or Musharakah structures</li>
+      <li>You have a solid plan and are committed</li>
+    </ul>
+  </section>
+
+  <!-- Form Section -->
+  <section class="py-12 px-6 md:px-16 bg-gray-50">
+    <h2 class="text-2xl font-semibold mb-6">Application Form</h2>
+    <form class="space-y-6 bg-white p-6 rounded-xl shadow-md max-w-4xl mx-auto">
+      
+      <div class="grid md:grid-cols-2 gap-4">
+        <input type="text" placeholder="Full Name" class="border p-3 rounded w-full" required>
+        <input type="email" placeholder="Email Address" class="border p-3 rounded w-full" required>
+        <input type="tel" placeholder="Phone Number" class="border p-3 rounded w-full">
+        <input type="text" placeholder="Country" class="border p-3 rounded w-full">
+      </div>
+
+      <input type="text" placeholder="Project Name" class="border p-3 rounded w-full" required>
+      <input type="text" placeholder="Industry" class="border p-3 rounded w-full" required>
+      <input type="number" placeholder="Amount of Funding Needed" class="border p-3 rounded w-full" required>
+
+      <select class="border p-3 rounded w-full" required>
+        <option disabled selected>Financing Type</option>
+        <option value="mudarabah">Mudarabah</option>
+        <option value="musharakah">Musharakah</option>
+        <option value="unsure">Not Sure</option>
+      </select>
+
+      <select class="border p-3 rounded w-full" required>
+        <option disabled selected>Business Stage</option>
+        <option>Idea</option>
+        <option>MVP</option>
+        <option>Revenue-Generating</option>
+      </select>
+
+      <textarea placeholder="Short Description (max. 300 characters)" maxlength="300" class="border p-3 rounded w-full" rows="3" required></textarea>
+
+      <textarea placeholder="Detailed Proposal (goals, strategy, team)" class="border p-3 rounded w-full" rows="5" required></textarea>
+
+      <input type="text" placeholder="Expected Return Range (e.g. 8–12% YoY)" class="border p-3 rounded w-full">
+      <input type="text" placeholder="Estimated Timeline (e.g. 6–12 months)" class="border p-3 rounded w-full">
+      <textarea placeholder="Describe your project's impact" class="border p-3 rounded w-full" rows="4"></textarea>
+
+      <div class="grid md:grid-cols-3 gap-4">
+        <label class="block">
+          <span class="text-sm">Business Plan (optional)</span>
+          <input type="file" class="mt-1 block w-full text-sm text-gray-500">
+        </label>
+        <label class="block">
+          <span class="text-sm">Financial Forecast</span>
+          <input type="file" class="mt-1 block w-full text-sm text-gray-500">
+        </label>
+        <label class="block">
+          <span class="text-sm">Pitch Deck</span>
+          <input type="file" class="mt-1 block w-full text-sm text-gray-500">
+        </label>
+      </div>
+
+      <label class="block">
+        <input type="checkbox" required class="mr-2"> I confirm my project complies with Islamic ethical guidelines
+      </label>
+      <label class="block">
+        <input type="checkbox" required class="mr-2"> I agree to provide regular progress updates
+      </label>
+
+      <button type="submit" class="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700">Submit My Application</button>
+    </form>
+  </section>
+
+  <!-- What Happens Next -->
+  <section class="bg-white py-12 px-6 md:px-16 text-center">
+    <h2 class="text-2xl font-semibold mb-4">What Happens Next?</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto">Our team reviews your proposal within 5–10 business days. If approved, you’ll be invited to launch your campaign on our platform and connect with investors directly.</p>
+  </section>
+
+  <!-- FAQ + Footer CTA -->
+  <section class="bg-gray-100 py-12 px-6 md:px-16">
+    <h2 class="text-xl font-semibold mb-4">Need Help?</h2>
+    <p class="mb-4">Check out our entrepreneur guide or reach out to our support team.</p>
+    <div class="flex gap-4">
+      <a href="#" class="bg-teal-600 text-white px-5 py-2 rounded hover:bg-teal-700">Download Guide</a>
+      <a href="#" class="border border-teal-600 text-teal-600 px-5 py-2 rounded hover:bg-teal-50">Contact Support</a>
+    </div>
+  </section>
+
+</body>
+</html>

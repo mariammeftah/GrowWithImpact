@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Impact Stories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1f3b3d;
+      margin-bottom: 1.5rem;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .story-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s;
+    }
+
+    .story-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .story-title {
+      font-size: 1.2rem;
+      color: #1f3b3d;
+      margin-bottom: 0.5rem;
+    }
+
+    .story-category {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 0.8rem;
+    }
+
+    .impact-list {
+      list-style: none;
+      padding-left: 1rem;
+      color: #2e5c5b;
+      margin-bottom: 1rem;
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      text-align: center;
+      padding: 0.6rem 1rem;
+      background-color: #1f3b3d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+
+    .read-more-btn:hover {
+      background-color: #144041;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Real Stories - Real Impact</h1>
+    <div class="story-grid">
+
+      <!-- STORY CARD 1 -->
+      <div class="story-card">
+        <div>
+          <div class="story-title">Nourish & Grow – Urban Organic Farm</div>
+          <div class="story-category">Industry: Sustainable Agriculture</div>
+          <ul class="impact-list">
+            <li>✔ 12 local jobs created</li>
+            <li>✔ 25 families receiving organic produce</li>
+            <li>✔ Profits reinvested in youth training</li>
+          </ul>
+        </div>
+        <a target="_blank" class="read-more-btn" href="detail.html">Read Full Story</a>
+      </div>
+
+      <!-- STORY CARD 2 -->
+      <div class="story-card">
+        <div>
+          <div class="story-title">Code4Sisters – Tech Bootcamp for Women</div>
+          <div class="story-category">Industry: Education & Digital Skills</div>
+          <ul class="impact-list">
+            <li>✔ 40 women trained in software development</li>
+            <li>✔ 18 job placements within 6 months</li>
+            <li>✔ Inclusive curriculum for underserved communities</li>
+          </ul>
+        </div>
+        <a class="read-more-btn" href="project-code4sisters.html">Read Full Story</a>
+      </div>
+
+      <!-- STORY CARD 3 -->
+      <div class="story-card">
+        <div>
+          <div class="story-title">GreenSpark Solar Kits – Nigeria</div>
+          <div class="story-category">Industry: Clean Energy</div>
+          <ul class="impact-list">
+            <li>✔ 150 homes equipped with solar power</li>
+            <li>✔ 3 local technicians trained</li>
+            <li>✔ Reduced diesel usage by 70%</li>
+          </ul>
+        </div>
+        <a class="read-more-btn" href="project-greenspark.html">Read Full Story</a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
