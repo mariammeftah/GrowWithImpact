@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ethical Investment Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .about {
+        padding: 40px 20px;
+        background-color: #fff;
+        text-align: center;
+    }
+    .about-columns {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .about-column {
+        width: 30%;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .story-title {
+      font-size: 1.2rem;
+      color: #1f3b3d;
+      margin-bottom: 0.5rem;
+    }
+
+  </style>
+</head>
+    <body class="bg-white text-gray-800 nt-sans">
+        <!-- Hero Section -->
+        <section class="relative bg-teal-600 text-white py-8 px-6 text-center">
+            <!-- Home Button Links Boven -->
+            <div class="absolute top-6 left-6">
+              <a href="index4.html" class="bg-white text-teal-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100">Home</a>
+            </div>
+            <!-- Hoofdinhoud gecentreerd -->
+            <section class="bg-grey py-16 px-6 md:px-16 text-center">
+                <h1 class="text-4xl font-bold mb-4">Submit Your Ethical Business Proposal</h1>
+                <p class="text-lg text-white max-w-2xl mx-auto">We connect values-driven entrepreneurs with interest-free investment opportunities. Let’s grow together with trust, impact, and purpose.</p>
+            </section>
+        </section>
+        <!-- Hero Section -->
+     
+        
+        <!-- Form Section -->
+            <section class="py-12 px-6 md:px-16 bg-gray-50">
+                <h1 class="text-4xl md:text-4xl font-semibold mb-6 text-gray-900 mb-4 text-center">Application form</h1>
+
+                <form class="space-y-6 bg-white p-6 rounded-xl shadow-md max-w-4xl mx-auto">
+    
+                <div class="grid md:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Full name" class="border p-3 rounded w-full" required>
+                    <input type="email" placeholder="Email address" class="border p-3 rounded w-full" required>
+                    <input type="tel" placeholder="Phone number" class="border p-3 rounded w-full">
+                    <input type="text" placeholder="Country" class="border p-3 rounded w-full">
+                </div>
+
+                <input type="text" placeholder="Project name" class="border p-3 rounded w-full" required>
+                <input type="text" placeholder="Industry" class="border p-3 rounded w-full" required>
+                <input type="number" placeholder="Amount of funding needed" class="border p-3 rounded w-full" required>
+
+                <select class="border p-3 rounded w-full" required>
+                    <option disabled selected>Financing type</option>
+                    <option value="mudarabah">Mudarabah</option>
+                    <option value="musharakah">Musharakah</option>
+                    <option value="unsure">Not Sure</option>
+                </select>
+
+                <select class="border p-3 rounded w-full" required>
+                    <option disabled selected>Business stage</option>
+                    <option>Idea</option>
+                    <option>MVP</option>
+                    <option>Revenue-generating</option>
+                </select>
+
+                <textarea placeholder="Short description (max. 300 characters)" maxlength="300" class="border p-3 rounded w-full" rows="3" required></textarea>
+
+                <textarea placeholder="Detailed proposal (goals, strategy, team)" class="border p-3 rounded w-full" rows="5" required></textarea>
+
+                <input type="text" placeholder="Expected return range (e.g. 8–12% YoY)" class="border p-3 rounded w-full">
+                <input type="text" placeholder="Estimated timeline (e.g. 6–12 months)" class="border p-3 rounded w-full">
+                <textarea placeholder="Describe your project's impact" class="border p-3 rounded w-full" rows="4"></textarea>
+
+                <div class="grid md:grid-cols-3 gap-4">
+                    <label class="block">
+                    <span class="text-sm">Business plan (optional)</span>
+                    <input type="file" class="mt-1 block w-full text-sm text-gray-500">
+                    </label>
+                    <label class="block">
+                    <span class="text-sm">Financial forecast</span>
+                    <input type="file" class="mt-1 block w-full text-sm text-gray-500">
+                    </label>
+                    <label class="block">
+                    <span class="text-sm">Pitch deck</span>
+                    <input type="file" class="mt-1 block w-full text-sm text-gray-500">
+                    </label>
+                </div>
+
+                <label class="block">
+                    <input type="checkbox" required class="mr-2"> I confirm my project complies with Islamic ethical guidelines
+                </label>
+                <label class="block">
+                    <input type="checkbox" required class="mr-2"> I agree to provide regular progress updates
+                </label>
+
+                <button type="submit" class="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700">Submit My Application</button>
+                </form>
+            </section>
+            <!-- What Happens Next -->
+            <section class="bg-white py-12 px-6 md:px-16 text-center">
+                <h2 class="text-2xl font-semibold mb-4">What Happens Next?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Our team reviews your proposal within 5–10 business days. If approved, you’ll be invited to launch your campaign on our platform and connect with investors directly.</p>
+            </section>
+    </body>
+</html>
